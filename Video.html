@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        video {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-image: url('782f032235bd4b00c80de140b8e70538.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        video::-webkit-media-controls {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        video::cue {
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<video controls>
+    <source src="0312(1).mp4" type="video/mp4">
+</video>
+
+</body>
+</html>
